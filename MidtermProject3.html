@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Reservation page 2</title>
+<style>
+ body{
+background-color: green;
+text-align: center;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+</head>
+<body>
+  <p><img src = "hotelLogo.jpeg" width = "50" height = "50"
+    alt = "Hetel Logo Image"> <br>
+    Lee's Hotel<br>
+    PhoneNumber:201-998-9912<br>
+    Address:292Harriet Ave. Fort Lee. NJ 07632
+  <h1>Welcome in Lee's Hotel</h1></p>
+<h1>Reservation page 2</h1>
+<h2>Different Type of Rooms available.</h2>
+<p>    King Bedroom; $140 per night
+<img src="kingbedroom.jpg" alt="kingbedroom image" style="width:250px"></p>
+<p>Double Bedroom; $160 per night
+<img src="doubleroom.jpg" alt="doubleroom image" style="width:250px"></p>
+<p>    Junior Suite; $200 per night
+<img src="juniorsuite.jpg" alt="juniorsuite image" style="width:250px"></p>
+
+
+<p>
+   <strong>Which type of rooms would you like?:</strong><br>
+
+   <label>King Bedroom
+      <input name = "roomtype" type = "radio"
+         value = "King Bedroom" checked></label>
+   <label>Double Bedroom
+      <input name = "roomtype" type = "radio"
+         value = "Double Bedroom"></label>
+   <label>Junior Suite
+      <input name = "roomtype" type = "radio"
+         value = "Juniorsuite"></label>
+</p>
+
+<p>
+   <label><strong>[King Bedroom] </strong>Number of Nights Staying and Total Cost:
+      <select name = "nights">
+
+         <option>5nights_$700</option>
+         <option>4nights_$560</option>
+         <option>3nights_$420</option>
+         <option>2nights_$280</option>
+         <option>1night_$140</option>
+         <option selected>0night_$0</option>
+      </select>
+   </label>
+</p>
+
+<p>
+   <label><strong>[Double bedroom] </strong>Number of Nights Staying and Total Cost:
+      <select name = "nights">
+
+         <option>5nights_$800</option>
+         <option>4nights_$640</option>
+         <option>3nights_$480</option>
+         <option>2nights_$320</option>
+         <option>1night_$160</option>
+         <option selected>0night_$0</option>
+      </select>
+   </label>
+</p>
+
+<p>
+   <label><strong>[Junior Suite] </strong>Number of Nights Staying and Total Cost:
+      <select name = "nights">
+
+         <option>5nights_$1000</option>
+         <option>4nights_$800</option>
+         <option selected>3nights_$600</option>
+         <option>2nights_$400</option>
+         <option>1night_$200</option>
+         <option>0night_$0</option>
+      </select>
+   </label>
+</p>
+
+
+
+
+<input type="submit">
+</form>
+</body>
+<footer>
+  <p>Posted by: Christine Lee<br>
+  Contact information:someone@example.com.<br>
+  Copyright year 1990-2019</p>
+</footer>
+</html>
